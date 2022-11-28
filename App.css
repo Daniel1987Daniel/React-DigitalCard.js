@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(200, 200, 214);
+ 
+}
+
+#outer {
+  text-align: center;
+  border: rgb(236, 234, 234) solid 5px;
+  background-color: rgb(26, 30, 90);
+  border-radius: 20px;
+  width: 500px;
+  height: 1090px;
+}
+
+#middle {
+  background-color: rgb(55, 60, 119);
+  padding: 50px;
+  margin: 40px;
+  width: 400px;
+  height: 1000px;
+  padding-bottom: 40px;
+}
+
+#inter {
+  background-color: rgb(26, 30, 90);
+  border-radius: 10px;
+  width: 300px;
+  height: 900px;
+}
+
+img {
+  border-radius: 5px;
+  margin-top: 0px;
+  background-image: url("./img/ja.jpg");
+  background-position-x: left;
+}
+
+.buttons {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  margin: 10px;
+  float: center;
+  position: relative;
+}
+
+.social-icon {
+  border-radius: 0px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.fa-envelope {
+  display: left;
+  align-items: left;
+  justify-content: left;
+  float: left;
+  font-size: 20px;
+  width: 50px;
+  height: 20px;
+  padding-bottom: 2.5px;
+  position: left;
+}
+
+.fa-linkedin {
+  font-size: 20px;
+  width:100px;
+  height: 20px;
+  border-radius: 40px;
+}
+
+.sections {
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+}
+
+h2, h3, h4, h5 {
+  color: white;
+}
+
+h1 {
+  color: rgb(7, 7, 64);
+  font-size: 70px;
+  font-weight:300;
+}
+
+h3 {
+  text-align: left;
+}
+
+.links {
+  background-color: rgb(78, 79, 101);
+  height: 80px;
+  width: 300px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+  padding: 30px 50px;
+  padding-left: 10px 10px;
+  margin: 0px;
+  float: center;
+  position: relative;
+}
+
+.fa-github {
+  font-size: 30px;
+}
+
+#linkedIn {
+  font-size: 30px;
+}
+
+.fa-facebook-square {
+  font-size: 30px;
+}
